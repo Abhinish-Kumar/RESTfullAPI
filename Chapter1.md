@@ -21,7 +21,7 @@ REST made it easier for different computer systems to talk to each other in a st
 5. Stateless Communication
 
 
-#### Principle 1 - every thing is a resource.
+### Principle 1 - every thing is a resource.
 
 To understand how REST works, you need to think about data in terms of its format rather than as physical files. On the internet, every piece of data is described by a specific format known as a content type. Here are some examples of content types:
 
@@ -43,11 +43,36 @@ Each type of data on the internet can be identified by its content type, which t
 This concept helps ensure that different systems can understand and use the data correctly, no matter what form it takes.
 
 
-#### Principle 2 - Each resource is identifiable by a unique identifier (URI)
 
 
 
 
+
+### Principle 2 - Each resource is identifiable by a unique identifier (URI)
+
+The internet has a vast array of resources, and each should be accessible through a unique address, known as a URI (Uniform Resource Identifier). Ideally, these URIs should be human-readable, making them easier to understand and work with, even though the main users are often software programs. Human-readable URIs help keep data self-explanatory and simplify further development. They also help reduce the chances of logical errors in programming.
+
+
+Here are some examples of human-readable URIs:
+
+2.1 Images: http://www.mydatastore.com/images/vacation/2014/summer
+
+2.2 Videos: http://www.mydatastore.com/videos/vacation/2014/winter
+
+2.3 XML Documents: http://www.mydatastore.com/data/documents/balance?format=xml
+
+2.4 Archive Data: 
+http://www.mydatastore.com/data/archives/2014
+
+These URIs clearly indicate the type of resource they point to:
+
+- The first URI points to an image from a summer vacation in 2014.
+- The second URI points to a video from a winter vacation in 2014.
+- The third URI points to a balance document in XML format.
+- The fourth URI points to archived data from 2014.
+
+  
+By making URIs clear and readable, you make it easier to identify and work with different types of resources on the internet.
 
 
 
